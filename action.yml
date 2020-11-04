@@ -1,0 +1,10 @@
+name: 'Install rust-script'
+description: 'Installs rust-script for use in CI'
+inputs:
+  version:
+    description: 'Version of rust-script to install'
+    required: false
+    default: 'latest'
+runs:
+  using: 'node12'
+  main: 'index.js'
