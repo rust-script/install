@@ -1,0 +1,24 @@
+{
+  "name": "rust-script-install",
+  "version": "1.0.0",
+  "description": "GitHub Action to install rust-script.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rust-script/install.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rust-script/install/issues"
+  },
+  "homepage": "https://github.com/rust-script/install#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}
